@@ -146,11 +146,11 @@ The table for each guideline has the following fields.
 
 Rule violations are (or will be) detectable by the MATLAB Code Analyzer. The Code Analyzer is a tool in MATLAB that examines code to identify problems and make recommendations for improvement. It can identify issues related to syntax errors, compatibility, performance, deprecated functionality and much, much more. The Code Analyzer provides [over two thousand checks](https://www.mathworks.com/help/matlab/matlab_env/index-of-code-analyzer-checks.html) for various potential code issues. Those checks can be enabled, disabled, or customized by [creating a local codeAnalyzerConfiguration.json file](https://www.mathworks.com/help/matlab/matlab_env/configure-code-analyzer.html) similar to the example shown below.
 
-<img title="" src="../images/codeAnalyzerConfiguration.png" alt="" width="439">
+<img title="" src="images/codeAnalyzerConfiguration.png" alt="" width="439">
 
 The MATLAB Code Analyzer can detect violations for a subset of the Rules listed in this document. Note that some versions of MATLAB may not be able to detect violations for all of the rules. When the Code Analyzer detects a Rule violation, it identifies the issue in both the MATLAB Editor and the Code Analyzer Report. Beginning in R2025a, violations in the Editor are indicated on the right-hand side of the Editor panel as shown in the following screenshot.
 
-<img title="" src="../images/Editor%20Checks.png" alt="" width="356">
+<img title="" src="images/Editor%20Checks.png" alt="" width="356">
 
 This guidelines document is accompanied by a `codeAnalyzerConfiguration.json` file which implements the checks for the set of Rule violations that can be detected. 
 
