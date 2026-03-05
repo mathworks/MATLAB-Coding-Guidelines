@@ -22,5 +22,7 @@ The guidelines are expected to evolve over time driven by feedback from the MATL
 
 You may use the guidelines document and the related codeAnalyzerConfiguration.json file as a starting point to create your own local guidelines to meet the specific needs of your organization.
 
+There is a rule file for AI coding assistants to generate MATLAB code that follows these coding standards at https://github.com/matlab/rules/blob/main/matlab-coding-standards.md.
+
 
 
